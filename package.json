@@ -1,0 +1,12 @@
+{
+  "name": "beef-price-monitor",
+  "version": "1.0.0",
+  "description": "Regional US beef price monitor with 10-minute live refresh",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
