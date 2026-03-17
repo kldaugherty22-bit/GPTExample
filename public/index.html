@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>US Regional Beef Price Monitor</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>US Regional Beef Price Monitor</h1>
+      <p class="subtitle">Latest average retail ground beef prices from BLS.</p>
+
+      <div class="meta" id="meta">Loading latest prices...</div>
+
+      <section>
+        <table>
+          <thead>
+            <tr>
+              <th>Region</th>
+              <th>Price</th>
+              <th>Period</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody id="priceRows"></tbody>
+        </table>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
